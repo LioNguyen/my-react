@@ -1,10 +1,10 @@
-name: CI | Vite Boilerplate
+name: CI | NPM D3
 
 on:
   push:
-    branches: ['boilerplate-vite']
+    branches: ['npm-d3-data-visualization']
   pull_request:
-    branches: ['boilerplate-vite']
+    branches: ['npm-d3-data-visualization']
 
 jobs:
   build:
