@@ -16,6 +16,9 @@ export const Navbar: FC<NavbarProps> = ({ className, ...props }) => {
       <div className="nav-item">
         <NavLink to="typography">Typography</NavLink>
       </div>
+      <div className="nav-item">
+        <NavLink to="form">Form</NavLink>
+      </div>
     </nav>
   )
 }

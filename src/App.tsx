@@ -8,6 +8,7 @@ import {
 import { Colors } from '@/components/molecules/colors'
 import { Typography } from '@/components/molecules/typography'
 import { Grid } from '@/components/templates/grid'
+import Form from './Form'
 
 /**
  * https://tailwindcss.com/docs/customizing-colors
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<Grid />}>
         <Route path="colors" element={<Colors />} />
         <Route path="typography" element={<Typography />} />
+        <Route path="form" element={<Form />} />
       </Route>,
     ),
   )
